@@ -1,0 +1,15 @@
+# Known-good set (Windows 11 x64, Python 3.12, faster-whisper 1.2.1). setup.py installs these first.
+# av is pinned on purpose: av 19 removed an argument faster-whisper 1.2.1 uses to read audio.
+faster-whisper==1.2.1
+ctranslate2==4.8.1
+av==18.1.0
+onnxruntime==1.29.0
+tokenizers==0.23.1
+huggingface_hub==1.29.0
+hf-xet==1.6.0
+protobuf==7.36.0
+flatbuffers==25.12.19
+numpy==2.3.5
+pillow==12.3.0
+fonttools==4.64.0
+PyYAML==6.0.3

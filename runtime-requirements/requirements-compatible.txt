@@ -1,0 +1,11 @@
+# Fallback when an exact pin has no wheel for this platform (setup.py records which file was used).
+# selftest still has to pass afterwards; the audio-decoding check catches incompatible combinations.
+faster-whisper>=1.1,<2
+ctranslate2>=4.4,<5
+av>=12,<19
+onnxruntime>=1.17
+huggingface_hub>=0.25
+numpy>=1.26
+pillow>=10.3
+fonttools>=4.47
+PyYAML>=6.0

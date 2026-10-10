@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "family": "Noto Sans KR",
+  "font_file": "NotoSansKR-VF.ttf",
+  "font_sha256": "9e1d729e7e2b36f9ef439da102f8c134c10aabe46f1c843bf0aca5c043b86f76",
+  "license_file": "OFL.txt",
+  "license_sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+  "license": "SIL Open Font License 1.1",
+  "upstream_version": "2.004",
+  "upstream_commit": "523d033d6cb47f4a80c58a35753646f5c3608a78",
+  "source_url": "https://raw.githubusercontent.com/notofonts/noto-cjk/523d033d6cb47f4a80c58a35753646f5c3608a78/Sans/Variable/TTF/Subset/NotoSansKR-VF.ttf",
+  "caption_font": {
+    "family": "Noto Sans KR",
+    "style": "Bold",
+    "file": "caption/NotoSansKR-Bold.otf",
+    "sha256": "5a6ceb287ed2fc6cfc6213144ebea68cbd94b20fc9eb873d8486493bf02d9bda",
+    "upstream_version": "2.004",
+    "upstream_commit": "523d033d6cb47f4a80c58a35753646f5c3608a78",
+    "source_url": "https://raw.githubusercontent.com/notofonts/noto-cjk/523d033d6cb47f4a80c58a35753646f5c3608a78/Sans/SubsetOTF/KR/NotoSansKR-Bold.otf",
+    "note": "Unmodified static Bold from the same Noto CJK release; used only for burned captions so libass gets a real bold face."
+  }
+}

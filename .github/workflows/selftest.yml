@@ -1,0 +1,24 @@
+# Clean-machine check on every push: install, unit tests, and selftest (no model download) on each platform.
+name: selftest
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  selftest:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-14, macos-13, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: install
+        run: python scripts/setup.py install --skip-model
+      - name: unit tests
+        run: python -m unittest discover -s tests -v
+      - name: selftest
+        run: python scripts/setup.py selftest --no-asr
+      - name: doctor
+        if: always()
+        run: python scripts/setup.py doctor --json

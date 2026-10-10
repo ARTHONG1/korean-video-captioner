@@ -1,0 +1,4 @@
+interface:
+  display_name: "Korean Video Captioner"
+  short_description: "한국어 자막·압축 편집·홍보 인트로·유튜브 게시 패키지"
+  default_prompt: "Use $korean-video-captioner to automatically complete verified Korean captions and, when no narrower mode is requested, the compact edit and promo intro enabled in the publish profile and the source-grounded YouTube publishing package with chapters and an AI thumbnail using the private book and character references."

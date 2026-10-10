@@ -1,0 +1,2 @@
+# Extra engine for macOS on Apple Silicon (GPU). Used only after setup.py selftest validates it on this Mac.
+mlx-whisper

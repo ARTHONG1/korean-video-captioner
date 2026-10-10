@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "caption_style": {
+    "preset": "white-box",
+    "font_ratio": 0.075,
+    "margin_ratio_landscape": 0.15,
+    "max_line_units": 16,
+    "max_lines": 2,
+    "reserved_zones": []
+  },
+  "compact_edit": {
+    "enabled": false,
+    "talk_speed": 1.1,
+    "trim_pauses": true,
+    "auto_approve_after_codex_review": false
+  },
+  "intro_promo": {
+    "enabled": false,
+    "target_seconds": 32,
+    "look_lock_project": "",
+    "deliver_shorts": true,
+    "deliver_standalone_16x9": true
+  },
+  "youtube": {
+    "chapters": true,
+    "intro_chapter_label": "미리보기"
+  }
+}
